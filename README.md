@@ -1,6 +1,15 @@
 # problemas algebra lineal 
 
 ## 1
-`
-|2 1 3||-6 0 -1||3 -8 7|     
-`
+```
+\[ \left( \begin{array}{cc}
+1 & 0 \\
+0 & 1
+\end{array} \right)
+%
+\left( \begin{array}{cc}
+1 & 0 \\
+0 & 1
+\end{array} \right)
+\]
+```
