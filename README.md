@@ -1,13 +1,4 @@
 # problemas algebra lineal 
 
 ## 1
-\[ \left( \begin{array}{cc}
-1 & 0 \\
-0 & 1
-\end{array} \right)
-%
-\left( \begin{array}{cc}
-1 & 0 \\
-0 & 1
-\end{array} \right)
-\]
+`matrix(c(2 1 -3 -6 0 -1 4 5 2 3 -8 7), nrow=2)`
