@@ -8,3 +8,17 @@ def test_problem_1():
     Solution = M*N
     My_Solution = Matrix([[-17, 13],[18, 11], [17, 6], [-42, -38]])
     assert Solution == My_Solution
+
+def test_problem_2(): 
+    M = Matrix([[1, 2, 3], [4, 0, -2]])
+    N = Matrix([[3, 1], [2, 4], [-1, 5]])
+    Solution = M*N
+    My_Solution = Matrix([[4, 24], [14, -6]])
+    assert Solution == My_Solution
+
+def test_problem_3(): 
+    M = Matrix([[6, 1], [2, -3], [-10, 8]])
+    N = Matrix([[4, 0, 9], [-7, 2, -5]])
+    Solution = M*N
+    My_Solution = Matrix([[17, 2, 49], [29, -6, 33], [-96, 16, -130]])
+    assert Solution == My_Solution
