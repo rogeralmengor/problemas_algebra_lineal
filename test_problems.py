@@ -22,3 +22,14 @@ def test_problem_3():
     Solution = M*N
     My_Solution = Matrix([[17, 2, 49], [29, -6, 33], [-96, 16, -130]])
     assert Solution == My_Solution
+
+def test_problem_4(): 
+    M = Matrix([[1, -2], [-6, 4], [5, -3]])
+    N = Matrix([[1, 0, 2, 4], [3, -1, 8, 6]])
+    Solution = M*N
+    My_Solution = Matrix([[-5, 2, -14, -8], 
+                            [6, -4, 20, 0], 
+                            [-4, 3, -14, 2]])
+    assert Solution == My_Solution
+
+
